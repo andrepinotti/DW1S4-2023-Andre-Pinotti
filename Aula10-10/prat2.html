@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Praticando 2</title>
+
+    
+
+</head>
+<body>
+    <h1>Praticando 2 - Formulários HTML estilizado</h1>
+    <div class="formulario">
+        <form action="" method="get" >
+
+            <label for="nome">Nome </label>
+            <input type="text" name="nome" id="nome" placeholder="Nome"> <br> <br>
+
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="seu@email.aqui"><br> 
+
+            <label for="carros">Marca de carro preferida</label>
+            <select name="carros" id="carros">
+                <option value="chevrolet">Chevrolet</option>
+                <option value="bmw">BMW</option>
+                <option value="chery">Chery</option>
+                <option value="toyota">Toyota</option>
+                <option value="volkswagen">Volkswagen</option>
+                <option value="mitsubichi">Mitsubichi</option>
+            </select> <br>
+
+            <label for="area">Observações</label> <br>
+            <textarea name="area" id="area" cols="30" rows="10"></textarea>
+            <br><br>
+
+            <label for="lang_fav">Linguagem web preferida: </label>
+
+            <input type="radio" name="lang_fav" value="HTML" id="html">
+            <label for="lang_fav">
+                <img src="html.png" alt="">
+            </label>
+
+            <input type="radio" name="lang_fav" id="css" value="HTML">
+            <label for="lang_fav">
+                <img src="css.png" alt="">
+            </label>
+
+            <input type="radio" name="lang_fav" id="js" value="JavaScript">
+            <Label for="lang_fav">
+                <img src="js1.png" alt="">
+            </Label>
+
+            
+            <p>Filmes que eu quero ver quando lançar: </p>
+            <input type= "checkbox" name="filme1" id="filme1" value="avengers"> 
+            <label for="filme1"><a href="https://www.adorocinema.com/filmes/filme-269068/">Avengers: The Kang Dynasty</a></label> <br>
+            <input type="checkbox" name="filme2" id="filme2" value="aquaman"> 
+            <label for="filme2"><a href="https://www.adorocinema.com/filmes/filme-270235/">Aquaman 2: O Reino Perdido</a></label> <br>
+            <input type="checkbox" name="filme3" id="filme3" value="marvels"> 
+            <label for="filme3"><a href="https://www.adorocinema.com/filmes/filme-272433/">The Marvels</a></label><br>
+            <input type="checkbox" name="filme4" id="filme4" value="deadpool">
+            <label for="filme4"><a href="https://www.adorocinema.com/filmes/filme-251633/">Deadpool 3</a></label> <br> <br>
+
+
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+        </form>
+    </div>
+    </body>
+</body>
+</html>
