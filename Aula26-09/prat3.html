@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando 3</title>
+
+    <style>
+        header{
+            width: 100%;
+            background-color: rgb(178, 245, 182);
+            border-bottom: 3px solid rgb(14, 165, 25);
+        }
+
+        footer{
+            background-color: rgb(178, 245, 182);
+            border-top: 3px solid rgb(14, 165, 25);
+        }
+        footer h3{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        aside{
+            border: 3px solid rgb(14, 165, 25);
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        main{
+            border: 3px solid rgb(14, 165, 25);
+            flex:1;
+            padding: 20px;
+        }
+
+        header ul, li{
+            display: flex;
+            justify-content: space-around;
+            font-size: 25px;
+
+        }
+        header a {
+            text-decoration: none;
+        }
+
+        header h1{
+            margin-left: 50px;
+            margin-top: 0px;
+            
+        }
+
+        .quadrado{
+            display: flex;
+            border: 1px solid black;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 200px;
+            height: 200px;
+            margin: 30px;
+            margin-bottom: 10px;
+            
+        }
+
+        .quadrado2{
+            display: flex;
+            border: 1px solid black;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 200px;
+            height: 200px;
+            margin: 30px;
+            margin-bottom: 145px;
+        }
+
+        .numbers{
+            font-size: 50px;
+        }
+
+        .container{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .bodySite{
+            margin-left: 50px;
+            
+        }
+
+
+        .containerBody{
+            display: flex;
+        }
+
+       aside{
+        width: 80%;
+       }
+
+       body{
+        font-family: 'Montserrat', sans-serif;
+       }
+
+
+    </style>
+    
+
+    
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+
+
+    <header>
+        <h1>Meu layout de site com Flexbox </h1>
+
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+</head>
+<body>
+    
+    <div>
+        <p></p>
+     </div>
+ 
+<div class="containerBody">
+    <aside>
+                
+        <h1 class="bodySite">Corpo do Site</h1>
+
+        <div class="container">
+            
+            
+            <div class="quadrado">
+                <h1 class="numbers">1</h1>
+                <h3>One</h3>
+            </div>
+        
+            <div class="quadrado">
+                <h1 class="numbers">2</h1>
+                <h3>Two</h3>
+            </div>
+        
+            <div class="quadrado">
+                <h1 class="numbers">3</h1>
+                <h3>Three</h3>
+            </div>
+
+            <div class="quadrado">
+                <h1 class="numbers">4</h1>
+                <h3>Four</h3>
+            </div>
+
+            <div class="quadrado">
+                <h1 class="numbers">5</h1>
+                <h3>Five</h3>
+            </div>
+
+            <div class="quadrado">
+                <h1 class="numbers">6</h1>
+                <h3>Six</h3>
+            </div>
+
+            <div class="quadrado2">
+                <h1 class="numbers">7</h1>
+                <h3>Seven</h3>
+            </div>
+
+            <div class="quadrado2">
+                <h1 class="numbers">8</h1>
+                <h3>Eight</h3>
+            </div>
+
+            <div class="quadrado2">
+                <h1 class="numbers">9</h1>
+                <h3>Nine</h3>
+            </div>
+
+            <div class="quadrado2">
+                <h1 class="numbers">10</h1>
+                <h3>Ten</h3>
+            </div>
+        </div>
+    
+    </aside>
+
+    <main>
+
+        <h1>Box Lateral</h1>
+
+    <p>
+
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex enim consequuntur nesciunt ipsam deserunt tempore adipisci est ullam, quaerat, inventore error quos cum eaque dolorum facere mollitia hic maxime earum.
+        Accusantium aliquam voluptatum a sit laborum harum corporis modi nesciunt, explicabo nihil quam, beatae, ipsam quis accusamus. Quam consequuntur numquam ut iste perferendis accusamus ducimus, quae blanditiis ea quos porro.
+        Ab illum illo repudiandae quae repellendus? Repellat fuga quae ad sunt sequi ipsam necessitatibus ut unde optio. Vel iste repellat voluptate exercitationem perferendis aliquid! Quae enim sed consectetur officia qui.
+   
+    </p>
+    </main>
+</div>
+
+    <div>
+       <p></p>
+    </div>
+
+    
+
+
+    <footer>
+       
+        <h3>Criado por André Pinotti</h3>
+        <h3>andrepinotti0@gmail,com</h3>
+        
+    </footer>
+
+</body>
+</html>
