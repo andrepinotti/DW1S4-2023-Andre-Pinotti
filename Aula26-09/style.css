@@ -1,0 +1,100 @@
+header{
+    width: 100%;
+    background-color: rgb(178, 245, 182);
+    border-bottom: 3px solid rgb(14, 165, 25);
+}
+
+footer{
+    background-color: rgb(178, 245, 182);
+    border-top: 3px solid rgb(14, 165, 25);
+    height: 10vh;
+}
+footer h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+aside{
+    border: 3px solid rgb(14, 165, 25);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main{
+    border: 3px solid rgb(14, 165, 25);
+    flex:1;
+    padding: 20px;
+}
+
+header ul, li{
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+
+}
+header a {
+    text-decoration: none;
+}
+
+header h1{
+    margin-left: 50px;
+    margin-top: 0px;
+    
+}
+
+.quadrado{
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    margin-bottom: 10px;
+    
+}
+
+.quadrado2{
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    margin-bottom: 145px;
+}
+
+.numbers{
+    font-size: 50px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.bodySite{
+    margin-left: 50px;
+    
+}
+
+
+.containerBody{
+    display: flex;
+}
+
+aside{
+width: 85%;
+}
+
+body{
+font-family: 'Montserrat', sans-serif;
+height: 100vh;
+}
+
+
